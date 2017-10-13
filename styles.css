@@ -1,10 +1,99 @@
 img {
+  position: relative;
   width: 272px;
   height: 92px;
-  margin: 200px 0 200px 100px;
-  alt: "Google logo";
+  margin: 200px auto 10px auto;
+  display: block;
 }
 
-body {
+a {
+  margin: 0 10px 0 10px;
+}
 
+.font {
+  font-size: 10pt;
+  color: white;
+  font-family: arial,sans-serif;
+}
+
+.right {
+  text-align: right;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+#navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 10px;
+}
+
+.alignRight {
+  float: right;
+  margin-right: 10px;
+}
+
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #555555;
+  padding: 10px;
+}
+
+#apps {
+  position: relative;
+  display: inline-block;
+  height: 23px;
+  width: 23px;
+  background-image: url(images/i1_1967ca6a.png);
+  background-position: -132px -43px;
+  opacity: .55;
+  filter: invert(1);
+  vertical-align: middle;
+  padding-right: 15px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+input {
+  width: 550px;
+  height: 30px;
+  display: block;
+  margin: auto;
+}
+
+#buttons {
+  text-align: center;
+  margin: 10px auto 0 auto;
+}
+
+button {
+  background-color: #555555;
+  color:  white;
+  padding: 10px 16px;
+  margin: 11px 8px;
+  font-size: 13px
+  font-family: arial,sans-serif;
+  border-radius: 8px;
+  border: #555555;
+}
+
+button:hover {
+  background-color: #777777;
+  color: black;
+}
+
+html {
+  background-color: #000000;
 }
